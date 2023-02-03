@@ -5,7 +5,7 @@ public class operatorDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the value of x and y");
+		/*System.out.println("Enter the value of x and y");
 		int x=sc.nextInt();
 		int y=sc.nextInt();
 		//Arithmetic Operator
@@ -33,6 +33,16 @@ public class operatorDemo {
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(c);
+		//Ternary Operator
+		String res5=(12%2==0)?"EVEN":"ODD";
+		System.out.println(res5);
+		//Increment and Decrement*/
+		int x=5;
+		int p=x++;
+		int q=--x;
+		
+		System.out.println(q);
+		
 		
 	}
 
