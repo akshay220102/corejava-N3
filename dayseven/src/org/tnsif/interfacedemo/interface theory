@@ -1,0 +1,20 @@
+##########---------------INTERFACES---------------------###################
+
+#interfaces are implemented and classes are extended
+#all the methods in interfaces are by default 'public abstract'
+# class A implements C     
+# variable in interfaces are must be 'public static final'.
+---->interface A
+	  {
+	  //BODY
+	  } 
+ 
+ # you must declare the implimented method as 'public' while declaring the abstract 
+ method from interface in implemended class
+ 
+_____________________________________________________________________________________ 
+ 
+ ?????????-----------Functional Interface-------------- ??????????????????
+ #functional interface contains exactly one abstract method
+ 
+ 
